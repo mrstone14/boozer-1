@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM debian:buster
 MAINTAINER <hey@bgulla.dev>
 
 RUN apt-get update && \
